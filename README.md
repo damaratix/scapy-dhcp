@@ -1,19 +1,31 @@
+# DHCP traffic read by Scapy 
+
+
 Read a  file pcap and prints out the dhcp traffic captured on the network,
 easily human readable 
-<br /><br />
+
+
 You can use it to create  a mapping of the clients of the newtork 
 you are attacched to. 
-<br />
-<br /> 
-Usage:<br />
-<br />
-1. get a traffic log<br />
-#tcpdump -i wlan0 portrange 67-68 -w  dhcp_traffic.pcap<br />
-<br />
+
+
+###  Usage: ###
+
+
+1. get a traffic log
+
+```
+# tcpdump -i wlan0 portrange 67-68 -w  dhcp_traffic.pcap
+```
+
 2. give the log to the script<br />
-$python dhcp.py < your_traffic.pcap<br />
-<br />
-<br />
+
+```
+$ python dhcp.py < your_traffic.pcap<br />
+```
+
+
+
 ===========================================
 Eth src mac: 00:aa:bb:cc:dd:ff
 message-type: 3

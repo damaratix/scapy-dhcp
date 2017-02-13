@@ -12,20 +12,20 @@ you are attacched to.
 ###  Usage: ###
 
 
-1. get a traffic log
+- get a traffic log
 
 ```
 # tcpdump -i wlan0 portrange 67-68 -w  dhcp_traffic.pcap
 ```
 
-2. give the log to the script<br />
+- give the log to the script
 
 ```
-$ python dhcp.py < your_traffic.pcap<br />
+$ python dhcp.py < your_traffic.pcap
 ```
 
 
-
+```
 ===========================================
 Eth src mac: 00:aa:bb:cc:dd:ff
 message-type: 3
@@ -52,3 +52,5 @@ Servers Found:
 routers: set(['192.168.43.1'])
 nameservers: set(['192.168.43.1']) 
 dhcpservers: set(['192.168.43.1'])
+
+```

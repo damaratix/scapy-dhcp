@@ -15,13 +15,13 @@ you are attacched to.
 - get a traffic log
 
 ```
-# tcpdump -i wlan0 portrange 67-68 -w  dhcp_traffic.pcap
+# tcpdump -i wlan0 portrange 67-68 -w  dhcp-traffic.pcap
 ```
 
-- pass it to the script
+- launch the script
 
 ```
-$ python dhcp.py < your_traffic.pcap
+$ python dhcp.py
 ===========================================
 Eth src mac: 00:aa:bb:cc:dd:ff
 message-type: 3

@@ -15,7 +15,7 @@ you are attacched to.
 - get a traffic log
 
 ```
-# tcpdump -i wlan0 portrange 67-68 -w  dhcp-traffic.pcap
+$ sudo tcpdump -i wlan0 portrange 67-68 -w  dhcp-traffic.pcap
 ```
 
 - launch the script

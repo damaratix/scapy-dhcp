@@ -60,7 +60,7 @@ if __name__ == "__main__":
     dhcpservers=set()
     nameservers=set()
 
-    packets = rdpcap('2017-02-02.pcap')
+    packets = rdpcap('dhcp-traffic.pcap.')
     for pkt in packets:
         #show_packet(pkt)
         #show_packet_layers(pkt)

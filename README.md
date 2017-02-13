@@ -22,10 +22,6 @@ you are attacched to.
 
 ```
 $ python dhcp.py < your_traffic.pcap
-```
-
-
-```
 ===========================================
 Eth src mac: 00:aa:bb:cc:dd:ff
 message-type: 3

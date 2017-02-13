@@ -18,7 +18,7 @@ you are attacched to.
 # tcpdump -i wlan0 portrange 67-68 -w  dhcp_traffic.pcap
 ```
 
-- give the log to the script
+- pass it to the script
 
 ```
 $ python dhcp.py < your_traffic.pcap

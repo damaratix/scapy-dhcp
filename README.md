@@ -1,11 +1,11 @@
 # DHCP traffic read by Scapy 
 
 
-Read a  file pcap and prints out the dhcp traffic captured on the network,
-easily human readable 
+Read a  file pcap and print out the dhcp traffic captured on the network,
+in an easily human readable way.
 
 
-You can use it to create  a mapping of the clients of the newtork 
+You can use it to create  a mapping of clients in the newtork 
 you are attacched to. 
 
 

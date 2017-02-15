@@ -50,3 +50,25 @@ nameservers: set(['192.168.43.1'])
 dhcpservers: set(['192.168.43.1'])
 
 ```
+
+
+
+Short reminder about DHCP message-type:
+
+
+    1 = DHCP Discover message (DHCPDiscover).
+
+    2 = DHCP Offer message (DHCPOffer).
+
+    3 = DHCP Request message (DHCPRequest).
+
+    4 = DHCP Decline message (DHCPDecline).
+
+    5 = DHCP Acknowledgment message (DHCPAck).
+
+    6 = DHCP Negative Acknowledgment message (DHCPNak).
+
+    7 = DHCP Release message (DHCPRelease).
+
+    8 = DHCP Informational message (DHCPInform).
+

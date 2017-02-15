@@ -35,7 +35,7 @@ hostname: android-3576358fka2zzfsred
 ===========================================
 Eth 00:zz:yy:yy:kk:ww > ff:ff:ff:ff:ff:ff
 IP 192.168.43.1 > 255.255.255.255
-message-type: 5 (ACK for 192.168.43.43)
+message-type: 5 (ACK for 192.168.43.35)
 server_id: 192.168.43.1
 lease_time: 3600
 renewal_time: 1800

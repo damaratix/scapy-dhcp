@@ -23,8 +23,9 @@ $ sudo tcpdump -i wlan0 portrange 67-68 -w  dhcp-traffic.pcap
 ```
 $ python dhcp.py
 ===========================================
-Eth src mac: 00:aa:bb:cc:dd:ff
-message-type: 3
+Eth 00:aa:bb:cc:dd:ff >ff:ff:ff:ff:ff:ff
+IP 0.0.0.0 > 255.255.255.255
+message-type: 3 (Request)
 param_req_list: 017908360z44fc5t2c2e
 max_dhcp_size: 1500
 client_id: 010006393de93d
@@ -32,8 +33,9 @@ requested_addr: 192.168.43.35
 server_id: 192.168.43.1
 hostname: android-3576358fka2zzfsred
 ===========================================
-Eth src mac: 00:zz:yy:yy:kk:ww
-message-type: 5
+Eth 00:zz:yy:yy:kk:ww > ff:ff:ff:ff:ff:ff
+IP 192.168.43.1 > 255.255.255.255
+message-type: 5 (ACK for 192.168.43.43)
 server_id: 192.168.43.1
 lease_time: 3600
 renewal_time: 1800

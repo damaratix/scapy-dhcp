@@ -6,7 +6,24 @@ in an easily human readable way.
 
 
 You can use it to create  a mapping of clients in the newtork 
-you are attacched to. 
+you are attached to. 
+
+Please, install scapy first (python 2.7)
+```
+$ pip install scapy
+$ pip install dumbnet
+```
+
+and if you receive this "ImportError: No module named dumbnet" you need
+to install libdnet
+
+```
+git clone https://github.com/dugsong/libdnet.git
+cd libdnet
+./configure && make
+cd python
+python setup.py install
+```
 
 
 ###  Usage: ###
